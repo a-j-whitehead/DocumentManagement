@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
 
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Letters.Api\Letters.Api.csproj" />
+    <ProjectReference Include="..\DocumentManagement.Api\DocumentManagement.Api.csproj" />
   </ItemGroup>
 
 </Project>

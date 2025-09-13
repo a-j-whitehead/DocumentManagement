@@ -1,4 +1,4 @@
-﻿namespace Letters.Domain
+﻿namespace DocumentManagement.Domain
 {
     public class Letter
     {

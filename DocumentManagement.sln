@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.Api", "DocumentManagement.Api\DocumentManagement.Api.csproj", "{AC9BD974-E710-491E-96DD-FD2BA6E392B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.AppHost", "DocumentManagement.AppHost\DocumentManagement.AppHost.csproj", "{FDA72A70-06F9-A22F-B6E6-F9AC66EB7A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.Domain", "DocumentManagement.Domain\DocumentManagement.Domain.csproj", "{9B35D20A-4FD2-465E-7D0F-75A0B6D5612F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.ServiceDefaults", "DocumentManagement.ServiceDefaults\DocumentManagement.ServiceDefaults.csproj", "{F4BF3E85-5317-CC95-6FED-4F1BD54A4D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.Tests", "DocumentManagement.Tests\DocumentManagement.Tests.csproj", "{5EABD374-D9A2-92EF-1A53-FFE8F609CF61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC9BD974-E710-491E-96DD-FD2BA6E392B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9BD974-E710-491E-96DD-FD2BA6E392B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9BD974-E710-491E-96DD-FD2BA6E392B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9BD974-E710-491E-96DD-FD2BA6E392B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA72A70-06F9-A22F-B6E6-F9AC66EB7A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA72A70-06F9-A22F-B6E6-F9AC66EB7A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA72A70-06F9-A22F-B6E6-F9AC66EB7A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA72A70-06F9-A22F-B6E6-F9AC66EB7A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B35D20A-4FD2-465E-7D0F-75A0B6D5612F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B35D20A-4FD2-465E-7D0F-75A0B6D5612F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B35D20A-4FD2-465E-7D0F-75A0B6D5612F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B35D20A-4FD2-465E-7D0F-75A0B6D5612F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BF3E85-5317-CC95-6FED-4F1BD54A4D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BF3E85-5317-CC95-6FED-4F1BD54A4D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BF3E85-5317-CC95-6FED-4F1BD54A4D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BF3E85-5317-CC95-6FED-4F1BD54A4D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EABD374-D9A2-92EF-1A53-FFE8F609CF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EABD374-D9A2-92EF-1A53-FFE8F609CF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EABD374-D9A2-92EF-1A53-FFE8F609CF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EABD374-D9A2-92EF-1A53-FFE8F609CF61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94EF7CED-02FB-411D-A3D3-D1527D284978}
+	EndGlobalSection
+EndGlobal

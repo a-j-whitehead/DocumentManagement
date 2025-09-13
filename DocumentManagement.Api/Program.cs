@@ -1,4 +1,4 @@
-namespace Letters.Api;
+namespace DocumentManagement.Api;
 
 public class Program
 {
