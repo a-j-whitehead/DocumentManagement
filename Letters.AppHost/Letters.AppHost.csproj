@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Letters\Letters.csproj" />
+    <ProjectReference Include="..\Letters.Api\Letters.Api.csproj" />
   </ItemGroup>
 
 </Project>

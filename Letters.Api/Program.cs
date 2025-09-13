@@ -1,5 +1,4 @@
-
-namespace Letters;
+namespace Letters.Api;
 
 public class Program
 {
