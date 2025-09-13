@@ -1,0 +1,6 @@
+@Letters_HostAddress = http://localhost:5098
+
+GET {{Letters_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
