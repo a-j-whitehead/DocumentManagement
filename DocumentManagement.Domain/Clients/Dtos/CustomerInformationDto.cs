@@ -1,4 +1,4 @@
-﻿namespace DocumentManagement.Domain.AntiCorruptionLayers.Dtos
+﻿namespace DocumentManagement.Domain.Clients.Dtos
 {
     public class CustomerInformationDto
     {

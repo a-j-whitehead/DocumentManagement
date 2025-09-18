@@ -10,8 +10,4 @@
     <PackageReference Include="Aspose.Words" Version="25.9.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Clients\Dtos\" />
-  </ItemGroup>
-
 </Project>

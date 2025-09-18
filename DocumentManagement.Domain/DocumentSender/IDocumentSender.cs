@@ -2,6 +2,6 @@
 {
     internal interface IDocumentSender
     {
-        internal bool Send();
+        internal bool Send(BlueDocument document);
     }
 }

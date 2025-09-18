@@ -1,5 +1,4 @@
-﻿using DocumentManagement.Domain.Documents;
-using DocumentManagement.Domain.LetterParameters;
+﻿using DocumentManagement.Domain.LetterParameters;
 
 namespace DocumentManagement.Domain.DocumentParameters
 {

@@ -1,5 +1,5 @@
-﻿using DocumentManagement.Domain.AntiCorruptionLayers;
-using DocumentManagement.Domain.AntiCorruptionLayers.Dtos;
+﻿using DocumentManagement.Domain.Clients.Dtos;
+using DocumentManagement.Domain.DocumentParameters;
 using DocumentManagement.Domain.LetterParameters;
 
 namespace DocumentManagement.AntiCorruptionLayers

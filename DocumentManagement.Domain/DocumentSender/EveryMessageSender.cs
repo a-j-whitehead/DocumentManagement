@@ -1,9 +1,10 @@
 ﻿namespace DocumentManagement.Domain.DocumentSender
 {
-    class EveryMessageSender : IDocumentSender
+    internal class EveryMessageSender : IEveryMessageSender
     {
-        bool IDocumentSender.Send()
+        bool IEveryMessageSender.SendViaEveryMessage(BlueDocument document)
         {
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,14 +1,26 @@
-﻿using DocumentManagement.Domain.Documents;
+﻿using DocumentManagement.Domain.Clients;
+using System.Net.Mail;
 
 namespace DocumentManagement.Domain.DocumentSender
 {
-    internal class EmailSender : IDocumentSender
+    internal class EmailSender : IEmailSender
     {
-        public IEmailClient EmailClient { get; private set; }
-
-        bool IDocumentSender.Send(BlueDocument document)
+        private readonly IEmailClient _emailClient;
+        
+        internal EmailSender(IEmailClient emailClient)
         {
-            return EmailClient.SendEmail(new System.Net.Mail.MailMessage());
+            _emailClient = emailClient;
+        }
+
+        bool IEmailSender.SendViaEmail(BlueDocument document)
+        {
+            var mailMessage = ConstructMailMessage(document);
+            return _emailClient.SendEmail(mailMessage);
+        }
+
+        private static MailMessage ConstructMailMessage(BlueDocument document)
+        {
+            throw new NotImplementedException();
         }
     }
 }
