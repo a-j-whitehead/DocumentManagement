@@ -1,4 +1,6 @@
-﻿namespace DocumentManagement.Domain
+﻿using DocumentManagement.Domain.LetterParameters;
+
+namespace DocumentManagement.Domain.Templates
 {
     internal class TemplateParameter
     {

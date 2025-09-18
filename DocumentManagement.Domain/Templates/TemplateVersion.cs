@@ -1,4 +1,4 @@
-﻿namespace DocumentManagement.Domain
+﻿namespace DocumentManagement.Domain.Templates
 {
     internal class TemplateVersion
     {

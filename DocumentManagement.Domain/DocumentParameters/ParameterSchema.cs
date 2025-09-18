@@ -1,11 +1,11 @@
-﻿namespace DocumentManagement.Domain
+﻿namespace DocumentManagement.Domain.LetterParameters
 {
     internal class ParameterSchema
     {
         internal Guid ParameterSchemaId { get; set; }
         internal string Name { get; set; }
         internal Guid ParameterSourceId { get; set; }
-        internal ParameterSource ParameterSource { get; set; }
+        internal ApiParameterSource ParameterSource { get; set; }
         internal Guid ParameterTypeId { get; set; }
         internal ParameterType ParameterType { get; set; }
 

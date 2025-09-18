@@ -1,6 +1,4 @@
-﻿using DocumentManagement.Domain.Infrastructure;
-
-namespace DocumentManagement.Domain
+﻿namespace DocumentManagement.Domain.Templates
 {
     public class Template
     {
@@ -20,28 +18,6 @@ namespace DocumentManagement.Domain
             TemplateVersions = [];
             CreatedOn = DateTime.UtcNow;
             CreatedBy = createdBy;
-        }
-
-        internal Stream CreateDocumentFromTemplate(IS3Client s3Client, IBlueApiClient blueApiClient)
-        {
-            var templateBytes = s3Client.GetTemplate(this);
-
-            var parameterSources = TemplateParameters
-                .Select(tp => tp.Parameter.ParameterSource)
-                .Distinct();
-
-            var parameters = new List<LetterParameter>();
-            foreach (var source in parameterSources)
-            {
-                parameters.AddRange(blueApiClient.GetLetterParameters(source));
-            }
-
-            foreach (var parameter in parameters)
-            {
-                //TODO - handle different parameter types (e.g. string, table, image)
-            }
-
-            throw new NotImplementedException("Document generation not implemented.");
         }
 
         internal void ActivateTemplateVersion(Guid templateVersionId)
