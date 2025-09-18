@@ -18,8 +18,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.ServiceD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.Tests", "DocumentManagement.Tests\DocumentManagement.Tests.csproj", "{5EABD374-D9A2-92EF-1A53-FFE8F609CF61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagement.AntiCorruptionLayers", "DocumentManagement.AntiCorruptionLayers\DocumentManagement.AntiCorruptionLayers.csproj", "{6FA7B217-AB92-482D-92B1-A638BA4AEEFB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,10 +44,6 @@ Global
 		{5EABD374-D9A2-92EF-1A53-FFE8F609CF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EABD374-D9A2-92EF-1A53-FFE8F609CF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EABD374-D9A2-92EF-1A53-FFE8F609CF61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6FA7B217-AB92-482D-92B1-A638BA4AEEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FA7B217-AB92-482D-92B1-A638BA4AEEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FA7B217-AB92-482D-92B1-A638BA4AEEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FA7B217-AB92-482D-92B1-A638BA4AEEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
